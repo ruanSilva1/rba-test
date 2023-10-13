@@ -52,7 +52,7 @@ ul li.item-menu{
 }
 
 ul li.ativo{
-    background-color:#db9949;
+    background-color:transparent;
 }
 
 ul li.item-menu:hover{

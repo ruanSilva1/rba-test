@@ -22,7 +22,7 @@
   div h1 {
     transform: translate(350px, 30px);
   }
-  div button {
+  div button.nv-orcamento {
     transform: translate(1360px, -10px);
     width: 150px;
     height: 30px;
@@ -31,20 +31,26 @@
     border-style: solid;
     border-color: gray;
   }
-  div button .add-venda {
+  div button.nv-orcamento .link-a {
     color: black;
     font-size: 15px;
     font-weight: bold;
     text-decoration: none;
   }
-  div input {
-    width: 400px;
+  div button.cad-cliente {
+    transform: translate(1207px, 35px);
+    width: 150px;
     height: 30px;
     border-radius: 10px;
+    background-color: #f4d092;
     border-style: solid;
     border-color: gray;
-    transform: translate(190px, 90px);
-    background-color: #f4d092;
+  }
+  div button.cad-cliente .link-a {
+    color: black;
+    font-size: 15px;
+    font-weight: bold;
+    text-decoration: none;
   }
   div table {
     transform: translate(330px, 140px);
@@ -53,6 +59,16 @@
     border: 2px solid;
     border-radius: 4px;
     border-color: gray;
+  }
+  div input {
+    width: 400px;
+    height: 30px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: gray;
+    transform: translate(25px, 90px);
+    background-color: #f4d092;
+    color: black;
   }
 }
 @media screen and (max-width: 1360px) {
@@ -66,7 +82,7 @@
   div h1 {
     transform: translate(350px, 30px);
   }
-  div button {
+  div button.nv-orcamento {
     transform: translate(1160px, -10px);
     width: 150px;
     height: 30px;
@@ -75,20 +91,26 @@
     border-style: solid;
     border-color: gray;
   }
-  div button .add-venda {
+  div button.nv-orcamento .link-a {
     color: black;
     font-size: 15px;
     font-weight: bold;
     text-decoration: none;
   }
-  div input {
-    width: 400px;
+  div button.cad-cliente {
+    transform: translate(1007px, 35px);
+    width: 150px;
     height: 30px;
     border-radius: 10px;
+    background-color: #f4d092;
     border-style: solid;
     border-color: gray;
-    transform: translate(190px, 90px);
-    background-color: #f4d092;
+  }
+  div button.cad-cliente .link-a {
+    color: black;
+    font-size: 15px;
+    font-weight: bold;
+    text-decoration: none;
   }
   div table {
     transform: translate(330px, 140px);
@@ -98,4 +120,14 @@
     border-radius: 4px;
     border-color: gray;
   }
-}/*# sourceMappingURL=vendas.css.map */
+  div input {
+    width: 400px;
+    height: 30px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: gray;
+    transform: translate(25px, 90px);
+    background-color: #f4d092;
+    color: black;
+  }
+}/*# sourceMappingURL=orcamento.css.map */

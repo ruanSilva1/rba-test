@@ -18,26 +18,143 @@ div .div-direita {
   transform: translate(0, -20px);
   position: fixed;
 }
-div h1 {
+
+h1 {
   font-size: 42px;
-  transform: translate(650px, 75px);
+  transform: translate(750px, 75px);
   font-family: "Outfit", Arial;
 }
-div hr {
+
+hr {
   width: 70%;
   margin-left: 17%;
   margin-top: 7%;
   color: black;
   border-style: double;
 }
-div h2 {
-  transform: translate(620px, 150px);
+
+h2 {
+  transform: translate(710px, 150px);
 }
-div h3 {
-  transform: translate(670px, 195px);
+
+h3 {
+  transform: translate(760px, 195px);
   font-size: 22px;
 }
-div h4 {
-  transform: translate(620px, 200px);
+
+h4 {
+  transform: translate(708px, 200px);
   font-size: 16px;
+}
+
+@media screen and (max-width: 1680px) {
+  .container {
+    width: 100%;
+    display: inline-flex;
+    box-sizing: border-box;
+  }
+  div .div-direita {
+    width: 100%;
+    background-color: #EBE1C5;
+    height: 750px;
+    transform: translate(0, -20px);
+    position: fixed;
+  }
+  div h1 {
+    font-size: 42px;
+    transform: translate(745px, 75px);
+    font-family: "Outfit", Arial;
+  }
+  div hr {
+    width: 70%;
+    margin-left: 17%;
+    margin-top: 7%;
+    color: black;
+    border-style: double;
+  }
+  div h2 {
+    transform: translate(705px, 150px);
+  }
+  div h3 {
+    transform: translate(750px, 195px);
+    font-size: 22px;
+  }
+  div h4 {
+    transform: translate(700px, 200px);
+    font-size: 16px;
+  }
+}
+@media screen and (max-width: 1440px) {
+  .container {
+    width: 100%;
+    display: inline-flex;
+    box-sizing: border-box;
+  }
+  div .div-direita {
+    width: 100%;
+    background-color: #EBE1C5;
+    height: 750px;
+    transform: translate(0, -20px);
+    position: fixed;
+  }
+  div h1 {
+    font-size: 42px;
+    transform: translate(690px, 75px);
+    font-family: "Outfit", Arial;
+  }
+  div hr {
+    width: 70%;
+    margin-left: 17%;
+    margin-top: 7%;
+    color: black;
+    border-style: double;
+  }
+  div h2 {
+    transform: translate(650px, 150px);
+  }
+  div h3 {
+    transform: translate(700px, 195px);
+    font-size: 22px;
+  }
+  div h4 {
+    transform: translate(645px, 200px);
+    font-size: 16px;
+  }
+}
+@media screen and (max-width: 1360px) {
+  .container {
+    width: 100%;
+    display: inline-flex;
+    box-sizing: border-box;
+  }
+  div .div-direita {
+    width: 100%;
+    background-color: #EBE1C5;
+    height: 750px;
+    transform: translate(0, -20px);
+    position: fixed;
+  }
+  div h1 {
+    font-size: 42px;
+    transform: translate(650px, 75px);
+    font-family: "Outfit", Arial;
+  }
+  div hr {
+    width: 70%;
+    margin-left: 17%;
+    margin-top: 7%;
+    color: black;
+    border-style: double;
+  }
+  div h2 {
+    transform: translate(612px, 150px);
+  }
+  div h3 {
+    transform: translate(665px, 195px);
+    font-size: 22px;
+  }
+  div h4 {
+    transform: translate(615px, 200px);
+    font-size: 16px;
+  }
 }/*# sourceMappingURL=inicio.css.map */

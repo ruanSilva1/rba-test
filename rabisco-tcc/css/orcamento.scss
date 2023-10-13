@@ -22,10 +22,11 @@
             transform: translate(0, -20px);
             position: fixed;
         }
+    
         h1{
             transform: translate(350px, 30px);
         }
-        button{
+        button.nv-orcamento{
             transform: translate(1360px, -10px);
             width: 150px;
             height: 30px;
@@ -34,21 +35,28 @@
             border-style: solid;
             border-color: gray;
     
-            .add-venda{
+            .link-a{
                 color: black;
                 font-size: 15px;
                 font-weight: bold;
                 text-decoration: none;
             }
         }
-        input{
-            width: 400px;
+        button.cad-cliente{
+            transform: translate(1207px, 35px);
+            width: 150px;
             height: 30px;
             border-radius: 10px;
+            background-color: $CarameloEscuro;
             border-style: solid;
             border-color: gray;
-            transform: translate(190px, 90px);
-            background-color: $CarameloEscuro;
+    
+            .link-a{
+                color: black;
+                font-size: 15px;
+                font-weight: bold;
+                text-decoration: none;
+            }
         }
         table{
             transform: translate(330px, 140px);
@@ -57,6 +65,16 @@
             border: 2px solid;
             border-radius: 4px;
             border-color: gray;
+        }
+        input{
+            width: 400px;
+            height: 30px;
+            border-radius: 10px;
+            border-style: solid;
+            border-color: gray;
+            transform: translate(25px, 90px);
+            background-color: $CarameloEscuro;
+            color: black;
         }
     }
 }
@@ -69,10 +87,11 @@
             transform: translate(0, -20px);
             position: fixed;
         }
+    
         h1{
             transform: translate(350px, 30px);
         }
-        button{
+        button.nv-orcamento{
             transform: translate(1160px, -10px);
             width: 150px;
             height: 30px;
@@ -81,21 +100,28 @@
             border-style: solid;
             border-color: gray;
     
-            .add-venda{
+            .link-a{
                 color: black;
                 font-size: 15px;
                 font-weight: bold;
                 text-decoration: none;
             }
         }
-        input{
-            width: 400px;
+        button.cad-cliente{
+            transform: translate(1007px, 35px);
+            width: 150px;
             height: 30px;
             border-radius: 10px;
+            background-color: $CarameloEscuro;
             border-style: solid;
             border-color: gray;
-            transform: translate(190px, 90px);
-            background-color: $CarameloEscuro;
+    
+            .link-a{
+                color: black;
+                font-size: 15px;
+                font-weight: bold;
+                text-decoration: none;
+            }
         }
         table{
             transform: translate(330px, 140px);
@@ -104,6 +130,16 @@
             border: 2px solid;
             border-radius: 4px;
             border-color: gray;
+        }
+        input{
+            width: 400px;
+            height: 30px;
+            border-radius: 10px;
+            border-style: solid;
+            border-color: gray;
+            transform: translate(25px, 90px);
+            background-color: $CarameloEscuro;
+            color: black;
         }
     }
 }

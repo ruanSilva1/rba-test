@@ -1,32 +1,42 @@
 <!DOCTYPE html>
 <html lang="pt-br">
     <head>
-        <title>Vendas</title>
-        <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
-        <link rel="stylesheet" href="css/vendas.css">
-        <link rel="stylesheet" href="css/menu.css">
+        <title>Incluir Orçamento</title>
         <link rel="shortcut icon" href="favicon/favicon.ico" type="image/x-icon">
+        <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+        <link rel="stylesheet" href="css/menu.css">
+        <link rel="stylesheet" href="css/incluir_orcamento.css">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
     </head>
     <body>
         <div class="container">
-            <div class="div-direita">
-                <h1>Vendas</h1>
-                <button class="bt-add" type="submit"><a class="add-venda" href="#">Adicionar Venda</a></button>
-                <input type="text" placeholder="   Pesquisar clientes">
+            <div class="conteudo">
 
-                <table>
-                    <thead>
-                        <th>Cód</th>
-                        <th>Descrição</th>
-                        <th>Nome/fantasia</th>
-                        <th>CPF/CNPJ</th>
-                        <th>Pedido</th>
-                        <th>Data</th>
-                        <th>Valor</th>
-                    </thead>
-                </table>
-                
+                <form action="#" method="post"></form>
+                <h1>Incluir Orçamentos</h1>
+                    <label for="nome">Nome/Fantasia</label>
+                    <label class="label-inp-menor" for="dt nascimento">Data Nascimento</label>
+                    <label class="cp" for="cpf / cnpj">CPF/CNPJ</label><br>
+
+                    <input type="text" name="nome" id="">
+                    <input class="input-menor" type="date" name="nascimento" id="">
+                    <input class="input-menor" type="text" name="cpf_cnpj" id=""><br>
+
+                    <label class="fileira2" for="telefone">Telefone</label>
+                    <label class="label-email" for="email">Email</label>
+                    <label class="label-cep" for="cep">CEP</label>
+                    <label class="label-n" for="numero">Nº</label><br>
+
+                    <input class="input-fil2" type="tel" name="telefone" id="">
+                    <input class="input-email" type="email" name="email" id="">
+                    <input class="input-cep" type="text" name="cep" id="">
+                    <input class="input-n" type="number" name="numero" id=""><br>
+
+                    <label class="fileira3" for="descricao">Descrição</label>
+                    <label class="fileira3" for="valor">Valor</label>
+                    <label class="fileira3" for="forma de pagamento">Forma pagamento</label>
+                </form>
+
             </div>
 
             <nav class="menu-lateral">
@@ -63,5 +73,5 @@
             </nav>
             <script src="js/menu.js"></script>
         </div>
-    </body>
+    </body>
 </html>
